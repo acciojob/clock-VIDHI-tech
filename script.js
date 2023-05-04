@@ -1,9 +1,6 @@
-//your JS code here. If required.
-function updateTime() {
-  const now = new Date();
-  const timer = document.getElementById('timer');
-  timer.textContent = now.toLocaleString();
+function updateTimer(params) {
+	const now = new Date();
+	const timer = document.getElementById(timer);
+	timer.textcontent = now.toLocaleString();
 }
-
-// Update the timer every second
-setInterval(updateTime, 1000);
+setInterval = (updateTimer, 1000);
